@@ -4,15 +4,17 @@ import React from 'react';
 import radium from 'radium';
 import Wrapper from 'cat-components/lib/wrapper';
 
-import Normalize from 'componentsShare/Normalize';
+import Normalize from 'components/share/Normalize';
+
+import Header from './Header';
 
 @radium
-class Index extends React.Component {
+class Index extends React.PureComponent {
   render() {
     return (
-      <div>
-        This is Index!
-      </div>
+      <React.Fragment>
+        <Header />
+      </React.Fragment>
     );
   }
 }

@@ -41,5 +41,8 @@ module.exports = {
     'import/resolver': {
       'babel-module': alias
     }
+  },
+  rules: {
+    'require-jsdoc': 'off'
   }
 };

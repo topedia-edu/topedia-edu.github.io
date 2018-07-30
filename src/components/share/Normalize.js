@@ -5,7 +5,9 @@ import radium, {Style as StyleRadium} from 'radium';
 import normalize from 'radium-normalize';
 
 const all = {
-  overflowScrolling: 'touch'
+  overflowScrolling: 'touch',
+  fontFamily: 'DFHei-W5-WINP-BF',
+  fontSize: '17px'
 };
 
 const a = {
