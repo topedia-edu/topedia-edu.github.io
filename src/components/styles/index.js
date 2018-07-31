@@ -46,7 +46,7 @@ export const menu = {
 
 export const list = {
   display: 'grid',
-  gridTemplateColumns: 'calc(100% / 3) calc(100% / 3) calc(100% / 3)',
+  gridTemplateColumns: 'calc((100% - 15px * 2) / 3) calc((100% - 15px * 2) / 3) calc((100% - 15px * 2) / 3)',
   gridGap: '20px 15px',
   margin: '25px auto 35px',
   width: '100%',
