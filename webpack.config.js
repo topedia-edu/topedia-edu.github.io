@@ -22,7 +22,7 @@ module.exports = {
     filename: ENV ? '[name].min.js' : '[name].js',
     chunkFilename: ENV ? '[name].min.js' : '[name].js',
     publicPath: ENV ? '/topedia-edu-github-io/public/js/' : '/assets/',
-    path: path.resolve(__dirname, './docs/public/js')
+    path: path.resolve(__dirname, './public/js')
   },
   module: {
     rules: [
